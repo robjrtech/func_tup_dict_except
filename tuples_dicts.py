@@ -20,4 +20,4 @@ students["Chris"] = 83
 print(students)
 
 for name, grade in students.items():
-    print(name, grade)
+    print(f'{name}: {grade}')

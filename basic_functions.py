@@ -7,7 +7,7 @@ def greet_user():
         print(f"Hello, {name}! Welcome")
 greet_user()
 
-
+# This function ask for 2 numbers and adds them together and displays the result
 def add_two_numbers():
     print("Basic addition.")
     a = int(input("Pick a number: "))
@@ -18,7 +18,7 @@ result = add_two_numbers()
 print("The sum is:", result)
 
 
-
+# Evaluates if the number provided is divisible by 2 by using the modulo operator
 def is_even():
     num = float(input("Is your number divisible by 2? "))
     if num % 2 == 0:
@@ -28,6 +28,7 @@ def is_even():
         print(f"{num} is odd: False")
         return False
 
+# If-elif-else statement that confirms that is_even() returns True or False 
 result = is_even() 
 if result == True: 
     print("True")

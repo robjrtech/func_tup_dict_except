@@ -1,3 +1,4 @@
+# Dictionary{Subject:(TupleGrades)}
 course_grades = {
     "Math": (88,100,72,78,88,68,66,92),
     "Science": (75,80,69,70,90,100,85),
@@ -7,6 +8,7 @@ course_grades = {
     "Robotics": (),
 }
 
+# Function returns the average score for each course
 def get_average_grade(grades_tuple):
     try:
         average = sum(grades_tuple) / len(grades_tuple)
@@ -15,6 +17,7 @@ def get_average_grade(grades_tuple):
         print("Warning: There are no grades in this tuple.")
         return None
 
+# Loops through the course_grades to separate the key-value pairs then calls get_average_grade function and passes the grades_tuple variable as an argument to find the average 
 for course, grades_tuple in course_grades.items():
     average = get_average_grade(grades_tuple)
 

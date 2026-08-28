@@ -1,43 +1,47 @@
-# print("Basic Addition")
-# a = int(input("Pick a number: "))
-# b = int(input("Pick a number: "))
+# Ask user for 2 input
+print("Basic Addition")
+a = int(input("Pick a number: "))
+b = int(input("Pick a number: "))
 
-# def add(a,b):
-#     return a + b
-# print(add(a,b))
+# Addition: Evaluates the numbers provided 
+def add(a,b):
+    return a + b
+print(add(a,b))
 
+# Ask user for 2 input
+print("Basic Subtraction")
+a = int(input("Pick a number: "))
+b = int(input("Pick a number: "))
 
-
-# print("Basic Subtraction")
-# a = int(input("Pick a number: "))
-# b = int(input("Pick a number: "))
-
-# def add(a,b):
-#     return a - b
-# print(add(a,b))
-
-
-
-# print("Basic Multiplication")
-# a = int(input("Pick a number: "))
-# b = int(input("Pick a number: "))
-
-# def add(a,b):
-#     return a * b
-# print(add(a,b))
+# Subtraction: Evaluates the numbers provided 
+def add(a,b):
+    return a - b
+print(add(a,b))
 
 
+# Ask user for 2 input
+print("Basic Multiplication")
+a = int(input("Pick a number: "))
+b = int(input("Pick a number: "))
 
-# print("Basic Division")
-# a = int(input("Pick a number: "))
-# b = int(input("Pick a number: "))
+# Multiplication: Evaluates the numbers provided 
+def add(a,b):
+    return a * b
+print(add(a,b))
 
-# def add(a,b):
-#     return a / b
-# print(add(a,b))
+# Ask user for 2 input
+print("Basic Division")
+a = int(input("Pick a number: "))
+b = int(input("Pick a number: "))
 
+# Division: Evaluates the numbers provided 
+def divide(a,b):
+    return a / b
+print(divide(a,b))
 
-
+# Ask user for 3 inputs
+# Evaluates the numbers provided and math symbol. 
+# Validates if the user is not dividing by zero by using a try/except logic 
 print("Basic Calculator")
 a = int(input("Pick a number: "))
 o = input("Pick a symbol (+, - , *, /): ")
